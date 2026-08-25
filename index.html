@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMA Wijaya Kusuma — Belajar, Tumbuh, Berkarya</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <a href="#top" class="brand"><span class="badge"></span> SMA Wijaya Kusuma</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Buka menu">☰</button>
+    <ul id="navList">
+      <li><a href="#profil">Profil</a></li>
+      <li><a href="#kegiatan">Kegiatan</a></li>
+      <li><a href="#galeri">Galeri</a></li>
+      <li><a href="#ppdb">PPDB</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="hero-inner">
+    <span class="eyebrow">Mading Digital Sekolah</span>
+    <h1>Belajar, tumbuh, dan berkarya bersama Wijaya Kusuma.</h1>
+    <p class="lede">Website resmi ini dikelola oleh Tim Media & Publikasi sekolah — sebagai etalase kegiatan, prestasi, dan informasi terkini untuk siswa, orang tua, dan masyarakat.</p>
+    <div class="hero-cta">
+      <a href="#ppdb" class="btn btn-gold">Info PPDB 2026/2027</a>
+      <a href="#profil" class="btn btn-ghost">Profil Sekolah</a>
+    </div>
+    <div class="stats">
+      <div class="stat"><b>1998</b><span>Berdiri sejak</span></div>
+      <div class="stat"><b>850+</b><span>Siswa aktif</span></div>
+      <div class="stat"><b>42</b><span>Guru & staf</span></div>
+      <div class="stat"><b>A</b><span>Akreditasi BAN-S/M</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="profil">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">Profil</span>
+      <h2>Mengenal sekolah kami lebih dekat</h2>
+    </div>
+    <div class="profil-grid">
+      <div class="kepsek">
+        <div class="kepsek-top">
+          <div class="avatar"></div>
+          <div>
+            <b>Dra. Ratna Handayani, M.Pd.</b>
+            <span>Kepala SMA Wijaya Kusuma</span>
+          </div>
+        </div>
+        <p>"Pendidikan terbaik lahir dari kolaborasi guru, siswa, dan orang tua. Website ini kami hadirkan agar informasi sekolah bisa diakses siapa saja, kapan saja."</p>
+      </div>
+      <div class="vm-list">
+        <div class="vm-card">
+          <h3>Visi</h3>
+          <p>Mewujudkan generasi yang berakhlak, berprestasi, dan adaptif terhadap perkembangan zaman.</p>
+        </div>
+        <div class="vm-card">
+          <h3>Misi</h3>
+          <p>Menyelenggarakan pembelajaran aktif, menumbuhkan karakter, serta membuka ruang kreativitas siswa melalui kegiatan akademik dan non-akademik.</p>
+        </div>
+        <div class="vm-card">
+          <h3>Akreditasi</h3>
+          <p>Terakreditasi A oleh BAN-S/M, dengan program unggulan Sains, Bahasa, dan Jurnalistik Sekolah.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="mading" id="kegiatan">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">Papan Mading</span>
+      <h2>Berita & kegiatan terbaru</h2>
+    </div>
+
+    <!--
+      PENTING: div di bawah ini SENGAJA DIBIARKAN KOSONG.
+      Kartu-kartu berita akan dibuat OTOMATIS oleh script.js,
+      berdasarkan data di file berita.js.
+      Untuk menambah/mengedit berita, buka file berita.js — BUKAN file ini.
+    -->
+    <div class="mading-board" id="papan-mading"></div>
+
+  </div>
+</section>
+
+<section id="galeri">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">Galeri</span>
+      <h2>Momen di sekolah kami</h2>
+    </div>
+    <div class="galeri-grid">
+      <a href="#"><img src="https://picsum.photos/seed/sekolah1/700/700" alt="Kegiatan belajar mengajar di kelas"></a>
+      <a href="#"><img src="https://picsum.photos/seed/sekolah2/400/320" alt="Kegiatan upacara bendera"></a>
+      <a href="#"><img src="https://picsum.photos/seed/sekolah3/400/320" alt="Kegiatan ekstrakurikuler"></a>
+      <a href="#"><img src="https://picsum.photos/seed/sekolah4/400/320" alt="Perpustakaan sekolah"></a>
+      <a href="#"><img src="https://picsum.photos/seed/sekolah5/400/320" alt="Lomba antar kelas"></a>
+    </div>
+  </div>
+</section>
+
+<section id="ppdb">
+  <div class="wrap">
+    <div class="ppdb">
+      <div class="ppdb-top">
+        <h2>Penerimaan Peserta Didik Baru 2026/2027 kini dibuka.</h2>
+        <a href="#kontak" class="btn btn-gold">Hubungi Panitia PPDB</a>
+      </div>
+      <div class="timeline">
+        <div class="tl-step">
+          <b class="mono">01 · JUN</b>
+          <h4>Pendaftaran</h4>
+          <p>Isi formulir dan unggah berkas secara daring.</p>
+        </div>
+        <div class="tl-step">
+          <b class="mono">02 · JUL</b>
+          <h4>Seleksi</h4>
+          <p>Verifikasi berkas dan tes potensi akademik.</p>
+        </div>
+        <div class="tl-step">
+          <b class="mono">03 · JUL</b>
+          <h4>Pengumuman</h4>
+          <p>Hasil seleksi diumumkan melalui website ini.</p>
+        </div>
+        <div class="tl-step">
+          <b class="mono">04 · JUL</b>
+          <h4>Daftar Ulang</h4>
+          <p>Konfirmasi dan pelengkapan berkas administrasi.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="kontak">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h3>SMA Wijaya Kusuma</h3>
+        <p>Jl. Pendidikan No. 17, Kecamatan Sumber Makmur. Dikelola oleh Tim Media & Publikasi Sekolah.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Tautan</h4>
+        <ul>
+          <li><a href="#profil">Profil Sekolah</a></li>
+          <li><a href="#kegiatan">Berita & Kegiatan</a></li>
+          <li><a href="#galeri">Galeri</a></li>
+          <li><a href="#ppdb">PPDB</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Kontak</h4>
+        <ul>
+          <li>humas@wijayakusuma.sch.id</li>
+          <li>(0331) 555-0142</li>
+          <li>Senin–Jumat, 07.00–15.00</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 SMA Wijaya Kusuma. Dibangun oleh Tim Media & Publikasi Sekolah.</span>
+      <span class="mono">Dibuat dengan HTML/CSS statis · Rp0</span>
+    </div>
+  </div>
+</footer>
+
+<!--
+  URUTAN INI PENTING:
+  berita.js harus dimuat SEBELUM script.js,
+  karena script.js membutuhkan data dari berita.js
+-->
+<script src="berita.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
